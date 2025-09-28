@@ -29,7 +29,6 @@ impl eframe::App for TemplateApp {
         });
 
         egui::CentralPanel::default().show(ctx, |ui| {
-            // The central panel the region left after adding TopPanel's and SidePanel's
             ui.heading("eframe template");
 
             ui.horizontal(|ui| {
